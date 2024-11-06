@@ -4,7 +4,7 @@ export default {
         state.games = games;
     },
     
-    // Incrementa el stock del juego identificado por gameId
+    // Incrementa el stock del juego identificado por codigo
     increase(state, codigo) {
         const game = state.games.find(g => g.codigo === codigo); // Encuentra el juego
         if (game) {
@@ -12,7 +12,7 @@ export default {
         }
     },
     
-    // Disminuye el stock del juego identificado por gameId
+    // Disminuye el stock del juego identificado por codigo
     decrease(state, codigo) {
         const game = state.games.find(g => g.codigo === codigo); // Encuentra el juego
         if (game && game.stock > 0) {

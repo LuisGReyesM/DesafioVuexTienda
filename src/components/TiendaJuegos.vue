@@ -11,7 +11,7 @@
                   <th>STOCK</th>
                   <th>PRECIO</th>
                   <th>COLOR</th>
-                  <th>ACCIONES</th> <!-- Columna adicional -->
+                  <th>ACCIONES</th> 
               </tr>
           </thead>
           <tbody>
